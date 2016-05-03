@@ -1,0 +1,66 @@
+body {
+    background: url("../photos/kcskyline_crop2.jpg") no-repeat;
+    margin: 0;
+    font-family: Aller;
+}
+
+@font-face {
+    font-family: Aller;
+    src: url("../fonts/Aller/Aller_Rg.ttf")
+    
+}
+
+/*Navigation Bar*/
+nav {
+    opacity: .75;
+}
+
+.nav {
+    float: right;
+}
+
+.nav li {
+    width: 125px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    transition: background 0.25s ease;
+}
+
+.nav li:hover {
+    background: #c6c6c6;
+    border: 1px solid #c6c6c6;
+    border-radius: 2px;
+}
+
+/*Page Header*/
+
+.jumbotron {
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    margin-top: 75px;
+}
+
+/*Page Info*/
+.about {
+    margin-top: 225px;
+    color: #000;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 50px;
+    color: #777;
+}
+
+.work {
+    height: 100px;
+}
+
+
+
+
+
